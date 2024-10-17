@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SBI Confirmation Page</title>
+    <title>RBL Confirmation Page</title>
     <link rel="stylesheet" href="css/thank.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
         <div class="logo">
             <img src="src/thanklogo.png" alt="SBI Logo">
         </div>
-        <h1>Thank You for Choosing SBI Bank</h1>
+        <h1>Thank You for Choosing RBL Bank</h1>
         <p>Your Request Number is <span class="request-number" id="requestNumber"></span></p>
         <div class="checkmark-circle">
             <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
@@ -23,7 +23,7 @@
 
     <script>
         function generateRandomRequestNumber() {
-            const prefix = 'SBYBNK';
+            const prefix = 'RBLBNK';
             const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
             const numbers = '0123456789';
             let result = prefix;
